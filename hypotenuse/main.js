@@ -10,5 +10,5 @@ document.getElementById('button').onclick = function() {
 
     hypotenuse = Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
 
-    document.getElementById('result').innerHTML = `The hypotenuse is equal to ` + hypotenuse;
+    document.getElementById('result').innerHTML = `The hypotenuse is equal to ` + hypotenuse.toFixed(2);
 };
