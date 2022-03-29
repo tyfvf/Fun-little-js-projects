@@ -1,4 +1,26 @@
 body {
     text-align: center;
+    background-color: #A60D44;
+    color: #A3F22C;
+}
+
+button {
+    color: #A3F22C;
+    background-color: #4D2EA6;
     font-size: 2rem;
+    cursor: pointer;
+}
+
+label {
+    font-size: 5rem;
+}
+
+.container {  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+    width: 200px;
+    height: 200px;
 }
