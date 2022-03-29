@@ -1,0 +1,32 @@
+body {
+    background-color: #A81120;
+}
+
+.container {
+    border: 5px solid black;
+    border-radius: 10%;
+    padding: 10%;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15%;
+    font-size: 1.5rem;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+}
+
+button {
+    background-color: #F52A3E;
+    border: 1px solid #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+label {
+    color: #3DF567;
+}

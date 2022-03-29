@@ -9,6 +9,7 @@ button {
     background-color: #4D2EA6;
     font-size: 2rem;
     cursor: pointer;
+    border: 2px solid black;
 }
 
 label {
