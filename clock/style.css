@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    font-family: monospace;
+    font-size: 5em;
+    color: #15F501;
+    background-color: #000;
+}
+
+label {
+    border: 10px solid #15F501;
+    border-radius: 5%;
+    padding: 0% 0.8% 0.8% 0.8%;
+}
