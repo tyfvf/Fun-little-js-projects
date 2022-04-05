@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-size: 2em;
+    background-color: #A88352;
+    color: #F4C890;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    color: #F4C890;
+}
+
+input {
+    font-size: 0.8em;
+    margin: 1%;
+    color: #695133;
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 2%;
+    height: 0.8em;
+    margin: 0% 0% 1% 0%;
+    cursor: pointer;
+}
+
+button {
+    font-size: 0.8em;
+    background-color: #fff;
+    border: 1px solid black;
+    color: #695133;
+    cursor: pointer;
+}
+
+p {
+    font-weight: 600;
+    color: #FFD296;
+}
+
