@@ -27,6 +27,15 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #ff011b;
+    transform: scale(110%);
+}
+
+button:active {
+    transform: scale(90%);
+}
+
 label {
     color: #3DF567;
 }

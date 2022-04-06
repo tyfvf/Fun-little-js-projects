@@ -36,6 +36,15 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: rgb(218, 218, 218);
+    transform: scale(110%);
+}
+
+button:active {
+    transform: scale(90%);
+}
+
 p {
     font-weight: 600;
     color: #FFD296;

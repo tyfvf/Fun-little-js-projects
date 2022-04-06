@@ -17,6 +17,15 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #0cfa5c;
+    transform: scale(110%);
+}
+
+button:active {
+    transform: scale(90%);
+}
+
 input {
     font-size: 0.8em;
 }

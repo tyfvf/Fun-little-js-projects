@@ -16,3 +16,12 @@ button {
     background-color: #81F59A;
     cursor: pointer;
 }
+
+button:hover {
+    background-color: #32F59A;
+    transform: scale(110%);
+}
+
+button:active {
+    transform: scale(90%);
+}
