@@ -1,0 +1,43 @@
+body {
+    background-color: #FAAA57;
+    color: #2B8DAD;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    font-size: 2em;
+}
+
+.labels {
+    text-align: left;
+}
+
+.choice {
+    font-size: 0.7em;
+    background-color: #59D2FB;
+    border: 2px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.choice:hover {
+    background-color: #73DCFF;
+    transform: scale(110%);
+}
+
+.choice:active {
+    transform: scale(90%);
+}
+
+.results {
+    display: inline-block;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+
+.results > label{
+    color: #AD651A;
+}
