@@ -1,0 +1,33 @@
+body {
+    background-color: #619AE8;
+    font-weight: bold;
+    color: #E8AE3F;
+}
+
+.game-container {
+    text-align: center;
+}
+
+#canvas {
+    border: 1px solid #000;
+}
+
+#score-text {
+    font-size: 3rem;
+}
+
+#reset-btn {
+    font-size: 1.2rem;
+    background-color: #E8AE3F;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    background-color: rgba(232, 174, 63, 0.9);
+    transform: scale(120%);
+}
+
+#reset-btn:active {
+    transform: scale(90%);
+}
