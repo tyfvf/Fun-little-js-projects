@@ -9,7 +9,7 @@ document.getElementById('button').onclick = function () {
         const tempFahrenheit = temps[0];
         const tempKelvin = temps[1];
 
-        document.getElementById('result').innerHTML = `${temp}°C equals to ${tempFahrenheit.toFixed(1)}°F and ${tempKelvin}K.`;
+        document.getElementById('result').innerHTML = `${temp}°C equals to ${tempFahrenheit.toFixed(2)}°F and ${tempKelvin.toFixed(3)}K.`;
     }else if(fahrenheit) {
         const temps = Fahrenheit(Number(temp));
         const tempCelsius = temps[0];
@@ -21,7 +21,7 @@ document.getElementById('button').onclick = function () {
         const tempCelsius = temps[0];
         const tempFahrenheit = temps[1];
 
-        document.getElementById('result').innerHTML = `${temp}K equals to ${tempCelsius}°C and ${tempFahrenheit.toFixed(2)}°F.`;
+        document.getElementById('result').innerHTML = `${temp}K equals to ${tempCelsius.toFixed(2)}°C and ${tempFahrenheit.toFixed(2)}°F.`;
     }else {
         document.getElementById('result').innerHTML = 'Please select the scale of your temperature.';
     }
