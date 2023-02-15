@@ -1,6 +1,9 @@
 # Fun-little-js-projects
 Just some projects in JavaScript to practice.
 All projects have their own html, css and js file to make them independent as possible, also to organize better and have less confusion
+
+Test the project ▶ [here]("https://tyfvf.github.io/Fun-little-js-projects/")
+
 ## Index page
 
 https://user-images.githubusercontent.com/75546113/164091151-b75db6ac-ebea-4330-b11a-5d920ac4d3f9.mp4
